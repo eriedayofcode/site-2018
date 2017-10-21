@@ -1,24 +1,66 @@
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+  /*font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
+    sans-serif;*/
+  padding: 10vh 1rem;
   text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: rgba(#000, 0.7);
+.main-title {
+  display: none;
+}
 
-  &:focus,
+img {
+  max-width: 100%;
+}
+
+.btn.btn-primary {
+  color: white;
+  background-color: #005B94;
+  border-color: #005B94;
+
   &:hover {
-    color: rgba(#000, 0.6);
+    color: white;
+    text-decoration: none;
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.hero-header {
+  margin-bottom: 2rem;
+}
+
+.cfp {
+  margin-bottom: 2rem;
+}
+
+.tickets {
+  margin-bottom: 2rem;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+section {
+  margin-top: 3rem;
+}
+
+.site-footer {
+  margin-top: 3rem;
+}
+
+.code-of-conduct {
+  ul li {
+    list-style: none;
+  }
 }
