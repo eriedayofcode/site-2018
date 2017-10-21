@@ -1,0 +1,49 @@
+body {
+  /*font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
+    sans-serif;*/
+  padding: 10vh 1rem;
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.main-title {
+  display: none; }
+
+img {
+  max-width: 100%; }
+
+.btn.btn-primary {
+  color: white;
+  background-color: #005B94;
+  border-color: #005B94; }
+  .btn.btn-primary:hover {
+    color: white;
+    text-decoration: none; }
+
+.hero-header {
+  margin-bottom: 2rem; }
+
+.cfp {
+  margin-bottom: 2rem; }
+
+.tickets {
+  margin-bottom: 2rem; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+section {
+  margin-top: 3rem; }
+
+.site-footer {
+  margin-top: 3rem; }
+
+.code-of-conduct ul li {
+  list-style: none; }
