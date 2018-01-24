@@ -4,9 +4,66 @@ body {
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
     sans-serif;*/
-  padding: 10vh 1rem;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.container {
+  max-width: 960px; }
+
+.hero {
+  text-align: left;
+  padding: 2.5rem 0 0 0; }
+  .hero .date {
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 0; }
+  .hero .intro {
+    font-weight: 400;
+    margin: 0; }
+    .hero .intro .count {
+      font-weight: 600; }
+  .hero .venue {
+    font-weight: 400;
+    margin: 0; }
+
+.venue .address--line {
+  margin-bottom: 0; }
+
+.speaker--photo-container {
+  position: relative;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  width: 300px;
+  margin: 0 auto; }
+.speaker--name {
+  font-size: 1.4rem;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 0.75rem; }
+  .speaker--name a {
+    color: white;
+    display: block; }
+.speaker--photo-link {
+  display: block; }
+.speaker--photo {
+  width: 100%; }
+.speaker--talk-title {
+  margin-top: .75rem;
+  text-align: center; }
+.speaker--blurb p:last-child {
+  margin-bottom: 0; }
+
+@media (max-width: 768px) {
+  .speaker {
+    margin-bottom: 1.5rem; } }
+.caption {
+  font-size: .85rem;
+  text-align: center;
+  margin-top: .5rem;
+  margin-bottom: 0; }
 
 .main-title {
   display: none; }
@@ -22,6 +79,25 @@ img {
     color: white;
     text-decoration: none; }
 
+.accent-bar {
+  background-color: #005B94;
+  height: 5px;
+  margin: 0;
+  padding: 0; }
+
+.site-header {
+  background-color: #eee;
+  background: url("../images/hero-bg.jpg") 0 0;
+  padding: 2.5rem 0; }
+  .site-header .header-row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .site-header .nav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+
 .hero-header {
   margin-bottom: 2rem; }
 
@@ -29,7 +105,13 @@ img {
   margin-bottom: 2rem; }
 
 .tickets {
-  margin-bottom: 2rem; }
+  margin: 0;
+  padding-top: 0; }
+  .tickets h1 {
+    padding-bottom: 0; }
+
+.more-info--title {
+  text-align: center; }
 
 .no-gutters {
   margin-right: 0;
@@ -40,10 +122,34 @@ img {
     padding-left: 0; }
 
 section {
-  margin-top: 3rem; }
+  padding-top: 3rem; }
+  section h1 {
+    padding-bottom: 1.5rem; }
 
 .site-footer {
-  margin-top: 3rem; }
+  background-color: #005B94;
+  margin-top: 3rem;
+  padding: 3rem 0;
+  text-align: center;
+  color: white; }
+  .site-footer a {
+    color: #00AAE7; }
 
 .code-of-conduct ul li {
   list-style: none; }
+
+.organizers {
+  padding: 3rem 0;
+  margin: 0; }
+  .organizers--nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .organizers--title {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem; }
+
+.organizer--image {
+  border-radius: 50%;
+  max-height: 70px;
+  max-width: 70px; }

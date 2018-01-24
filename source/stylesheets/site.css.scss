@@ -1,12 +1,110 @@
+$dark-blue: #005B94;
+$light-blue: #00AAE7;
+$green: #84C661;
+$light-gray: #eee;
+$normal-weight: 400;
+$semi-bold-weight: 600;
+$bold-weight: 700;
+
 body {
   /*font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
     sans-serif;*/
-  padding: 10vh 1rem;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.hero {
+  //background-color: $light-gray;
+  text-align: left;
+  padding: 2.5rem 0 0 0;
+  .date {
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 0;
+  }
+  .intro {
+    font-weight: $normal-weight;
+    margin: 0;
+
+    .count {
+      font-weight: $semi-bold-weight;
+    }
+  }
+
+  .venue {
+    font-weight: $normal-weight;
+    margin: 0;
+  }
+}
+
+.venue {
+  .address--line {
+    margin-bottom: 0;
+  }
+}
+
+.speaker {
+  &--photo-container {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  &--name {
+    font-size: 1.4rem;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    width: 100%;
+    padding: 0.75rem;
+
+    a {
+      color: white;
+      display: block;
+    }
+  }
+
+  &--photo-link {
+    display: block;
+  }
+
+  &--photo {
+    width: 100%;
+  }
+
+  &--talk-title {
+     margin-top: .75rem;
+    text-align: center;
+  }
+
+  &--blurb {
+    p:last-child {
+      margin-bottom: 0
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .speaker {
+    margin-bottom: 1.5rem;
+  }
+}
+.caption {
+  font-size: .85rem;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: .5rem;
+  margin-bottom: 0;
 }
 
 .main-title {
@@ -28,6 +126,27 @@ img {
   }
 }
 
+.accent-bar {
+  background-color: $dark-blue;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: $light-gray;
+  background: url('../images/hero-bg.jpg') 0 0;
+  padding: 2.5rem 0;
+
+  .header-row {
+    align-items: center;
+  }
+
+  .nav {
+    justify-content: flex-end;
+  }
+}
+
 .hero-header {
   margin-bottom: 2rem;
 }
@@ -37,7 +156,18 @@ img {
 }
 
 .tickets {
-  margin-bottom: 2rem;
+  margin: 0;
+  padding-top: 0;
+
+  h1 {
+    padding-bottom: 0;
+  }
+}
+
+.more-info {
+  &--title {
+    text-align: center;
+  }
 }
 
 .no-gutters {
@@ -52,15 +182,51 @@ img {
 }
 
 section {
-  margin-top: 3rem;
+  //margin-top: 3rem;
+  padding-top: 3rem;
+
+  h1 {
+    padding-bottom: 1.5rem;
+  }
 }
 
 .site-footer {
+  background-color: $dark-blue;
   margin-top: 3rem;
+  padding: 3rem 0;
+  text-align: center;
+  color: white;
+
+  a {
+    color: $light-blue;
+  }
 }
 
 .code-of-conduct {
   ul li {
     list-style: none;
+  }
+}
+
+.organizers {
+  padding: 3rem 0;
+  margin: 0;
+
+  &--nav {
+    justify-content: space-between;
+
+  }
+
+  &--title {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.organizer {
+  &--image {
+    border-radius: 50%;
+    max-height: 70px;
+    max-width: 70px;
   }
 }

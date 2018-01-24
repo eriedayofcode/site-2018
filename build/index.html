@@ -26,13 +26,12 @@
 
     <title>Erie Day of Code 2018</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link href="/stylesheets/site.css" rel="stylesheet" />
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -45,162 +44,320 @@
     </script>
   </head>
   <body class="index">
+    <div class="accent-bar"></div>
     <header class="site-header">
       <div class="container">
-        <header class="hero-header">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
+        <div class="row header-row">
+          <div class="col-md-4">
+            <div class="logo">
               <a href="/">
-                <h1 class="main-title">Erie Day of Code 2018</h1>
                 <img src="/images/logo.png" class="logo" alt="Erie Day of Code" />
               </a>
-
-              <h3>May 4, 2018</h3>
             </div>
           </div>
-        </header>
+
+          <div class="col-md-8">
+            <nav class="social-nav">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://twitter.com/eriedayofcode" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://facebook.com/eriedayofcode" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.youtube.com/channel/UC0loXC7-ds3Ou_RfK1UoKbg" target="_blank">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="primary-nav">
+              <ul class="nav">
+                <!--
+                  <li class="nav-item">
+                  <a class="nav-link" href="#agenda">Agenda</a>
+                  </li>
+                -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#venue">Venue</a>
+                </li>
+                <!--
+                  <li class="nav-item">
+                  <a class="nav-link" href="#lodging">Lodging</a>
+                  </li>
+                -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#sponsors">Sponsors</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Archive</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://www.youtube.com/channel/UC0loXC7-ds3Ou_RfK1UoKbg" target="_blank">All Videos (YouTube)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="http://2017.eriedayofcode.com">2017</a>
+                    <a class="dropdown-item" href="http://2016.eriedayofcode.com">2016</a>
+                    <a class="dropdown-item" href="http://2015.eriedayofcode.com">2015</a>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </div>
+            </nav>
+      </div>
+
+      <div class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 class="intro">Our <span class="count">4th</span> annual event starts</h4>
+              <h1 class="date" title="May 4, 2018">05/04/2018</h1>
+              <h3 class="venue">9:00am at the <a href="#venue">Erie Art Museum</a></h3>
+            </div>
+
+            <div class="col-lg-4 offset-lg-2">
+              <section class="tickets">
+                <h1>Tickets On Sale</h1>
+                <p>Early Bird tickets are on sale now! Get yours today and save!</p>
+                <p class="text-center">
+                <a href="https://eriedayofcode.ticketleap.com/2018/dates/May-16-2018_at_0900AM" class="cta btn btn-primary btn-lg" target="_blank">Buy Yours Now!</a>
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
     <main>
-      <div class="landing-screen">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <section class="cfp">
-          <h1>Call for Papers</h1>
-          <p>Open until January 7, 2018</p>
-          <p class="">
-            <a href="https://goo.gl/forms/hPzcNskx4kLMx6ig1" class="cta btn btn-primary btn-lg" target="_blank">Submit Your Proposal Now!</a>
-          </p>
-        </section>
-      </div>
+    <div class="landing-screen">
+  <section id="mailing-list-signup">
+    <div class="container">
+      <h1>Stay up to Date</h1>
+      <h3>Subscribe to our mailing list for updates and ticket sales</h3>
+      <form action="//eriedayofcode.us10.list-manage.com/subscribe/post?u=3fcd98d64025f034a082fe384&id=bb907d9e18"
+            id="mailing-list-subscribe-form"
+            class="form"
+            method="post"
+            name="mc-embedded-subscribe-form"
+            target="_blank">
+            <div class="form-group row">
+              <label class="sr-only" for="email">Email Address</label>
+              <div class="col-lg-8">
+                <input type="email"
+                       class="form-control form-control-lg"
+                       id="email"
+                       name="EMAIL"
+                       placeholder="Enter Email Address">
+              </div>
 
-      <div class="col-lg-6">
-        <section class="tickets">
-          <h1>Blind Bird Tickets</h1>
-          <p>Best savings for trusting us to make this conference awesome!</p>
-          <p class="">
-            <a href="https://eriedayofcode.ticketleap.com/2018/dates/May-16-2018_at_0900AM" class="cta btn btn-primary btn-lg" target="_blank">Buy Yours Now!</a>
-          </p>
-      </div>
+              <div class="col-lg-4">
+                <input class="btn btn-primary btn-block btn-lg"
+                       name="subscribe"
+                       type="submit"
+                       value="Subscribe" />
+              </div>
+            </div>
+
+            <div style="position: absolute; left: -5000px;">
+              <input name="b_3fcd98d64025f034a082fe384_bb907d9e18"
+                     tabindex="-1"
+                     type="text" />
+            </div>
+      </form>
     </div>
+  </section>
 
-    <section class="archive">
-      <h1>Check Out Past Years</h1>
+  <section id="speakers">
+    <div class="container">
+      <h1>Speakers</h1>
+
+        <div class="row">
+            <div class="col-md-5 ">
+              <article class="speaker">
+                <div class="speaker--photo-container">
+                  <a class="speaker--photo-link" href="https://twitter.com/samanthageitz" target="_blank">
+                    <img src="/images/speakers/samantha-geitz.jpg" class="speaker--photo" alt="Samantha Geitz" />
+                  </a>
+                  <h3 class="speaker--name">
+                    <a href="https://twitter.com/samanthageitz" target="_blank">Samantha Geitz</a>
+                  </h3>
+                </div>
+                <h4 class="speaker--talk-title">
+                  Confessions of a Reformed Architecture Astronaut: In Defense of MVC
+                </h4>
+                <div class="speaker--blurb">
+                  <p>Senior Developer and captain of #TeamReact at <a href="http://tighten.co">Tighten</a>. Proud Chicago native and Wrigley Field bleacher bum. Owned by 2 dogs and a cat.</p>
+
+                </div>
+              </article>
+            </div>
+            <div class="col-md-5 offset-md-2">
+              <article class="speaker">
+                <div class="speaker--photo-container">
+                  <a class="speaker--photo-link" href="https://twitter.com/CasseyLottman" target="_blank">
+                    <img src="/images/speakers/cassey-lottman.jpg" class="speaker--photo" alt="Cassey Lottman" />
+                  </a>
+                  <h3 class="speaker--name">
+                    <a href="https://twitter.com/CasseyLottman" target="_blank">Cassey Lottman</a>
+                  </h3>
+                </div>
+                <h4 class="speaker--talk-title">
+                  Octopus Deploy: Automating .NET Deployments
+                </h4>
+                <div class="speaker--blurb">
+                  <p>Volunteer Crisis Counselor turned Software Engineer for <a href="http://crisistextline.org/">Crisis Text Line</a> hailing from Lincoln, Nebraska. Occasionally does taxes for fun. Lover of source control, repeatable deployment processes, and kayak polo.</p>
+
+                </div>
+              </article>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="venue" class="venue">
+    <div class="container">
+      <h1>Venue</h1>
       <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">EDoC 2017</h4>
-                  <a class="card-link" href="https://www.youtube.com/watch?v=2WOCX1_9V9c&list=PLUann_xfvVwnDt6-ufAI_j7B4AUD0vNln">
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                    Watch Videos
-                  </a>
+        <div class="col-lg-6">
+          <h2 class="name"><a href="http://erieartmuseum.org" target="_blank">Erie Art Museum</a></h2>
 
-                <a class="card-link" href="http://2017.eriedayofcode.com">
-                  <i class="fa fa-globe" aria-hidden="true"></i>
-                  View Website
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">EDoC 2016</h4>
-                  <a class="card-link" href="https://www.youtube.com/watch?v=K4o9u3oJx90&list=PLUann_xfvVwlNfcq2OHah5G1aT-E_naJq">
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                    Watch Videos
-                  </a>
-
-                <a class="card-link" href="http://2016.eriedayofcode.com">
-                  <i class="fa fa-globe" aria-hidden="true"></i>
-                  View Website
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">EDoC 2015</h4>
-
-                <a class="card-link" href="http://2015.eriedayofcode.com">
-                  <i class="fa fa-globe" aria-hidden="true"></i>
-                  View Website
-                </a>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
-
-    <div class="row">
-      <div class="col-md-8 ml-auto mr-auto">
-        <section id="mailing-list-signup">
-          <h1>Stay up to Date</h1>
-          <h3>Subscribe to our mailing list for updates and ticket sales</h3>
-          <form action="//eriedayofcode.us10.list-manage.com/subscribe/post?u=3fcd98d64025f034a082fe384&id=bb907d9e18"
-                id="mailing-list-subscribe-form"
-                class="form"
-                method="post"
-                name="mc-embedded-subscribe-form"
-                target="_blank">
-                <div class="form-group row">
-                  <label class="sr-only" for="email">Email Address</label>
-                  <div class="col-lg-8">
-                    <input type="email"
-                           class="form-control form-control-lg"
-                           id="email"
-                           name="EMAIL"
-                           placeholder="Enter Email Address">
-                  </div>
-
-                  <div class="col-lg-4">
-                    <input class="btn btn-primary btn-block btn-lg"
-                           name="subscribe"
-                           type="submit"
-                           value="Subscribe" />
-                  </div>
-                </div>
-
-                <div style="position: absolute; left: -5000px;">
-                  <input name="b_3fcd98d64025f034a082fe384_bb907d9e18"
-                         tabindex="-1"
-                         type="text" />
-                </div>
-          </form>
-        </section>
+          <p>
+          The Erie Art Museum is one of the best places in Erie to hold events.
+          The historic downtown gallery building blows out to include an enormous
+          modern architectural wing with an event space and café. The building Spans
+          most of the block between 4th and State St., and 5th and French St.
+          The conference entrance will be through the large glass doors of the
+          Wave Café on 5th street. Once inside, the large gallery hall with the main
+          stage for Erie Day of Code will be immediately to your left.
+          You're more than welcome to check out the various collections at the museum
+          during intermissions or lunch the conference for free!
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img src="/images/eam-shot.jpg" alt="Erie Art Museum" title="Erie Art Museum" class="venue-photo" />
+          <address class="caption">
+            <a href="https://goo.gl/maps/Td9m3MVZgD62" title="Click for Map" target="_blank">
+              411 State St. Erie, PA 16501
+            </a>
+          </address>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section id="sponsors" class="sponsors">
+    <div class="container">
+      <h1>Sponsors</h1>
+
+      <h4 class="prospectus-text site-notice">
+        Interested in sponsoring?  Check out our
+        <a href="/edoc2018-prospectus.pdf" class="prospectus-link" target="_blank">Prospectus</a>
+        for information.
+      </h4>
+
+
+      <section id="sponsor-partners">
+        <h1 class="partners">Partners</h1>
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4">
+              <article class="sponsor">
+<a href="http://radiusco.work" target="_blank">                  <img src="/images/sponsors/radius-logo.png" alt="Radius CoWork" title="Radius CoWork" class="logo" />
+</a>              </article>
+            </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="more-info">
+    <div class="container">
+      <h3 class="more-info--title">More information and speakers to be announced soon!</h3>
+    </div>
+  </section>
 </div>
 
 
     </main>
 
     <footer class="site-footer">
-      <div class="row">
-        <div class="col-lg-12">
-          <p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
             If you have questions or need more information,
             send an email to
             <a href="mailto:contact@eriedayofcode.com">contact@eriedayofcode.com</a>
-          </p>
+            </p>
 
-          <p>
+            <p>
             Please review our
             <a href="/code-of-conduct.html">Code of Conduct</a>
-          </p>
-
-          <p>
-            Erie Day of Code is organized by members of the
-            <a href="http://meetup.com/coderie">Coderie Software Development Group</a>
-          </p>
+            </p>
+          </div>
         </div>
+
+        <section class="organizers">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="organizers--title">
+                Erie Day of Code is organized by members of the
+                <a href="http://meetup.com/coderie">Coderie Software Development Group</a>
+                and
+                <a href="http://radiusco.work">Radius CoWork</a>
+              </h1>
+              <ul class="organizers--nav nav">
+                  <li class="nav-item organizer">
+                    <a href="https://twitter.com/machuga" target="_blank">
+                      <img src="/images/organizers/machuga.jpg" class="organizer--image" alt="Matt Machuga" title="Matt Machuga" />
+                    </a>
+                  </li>
+                  <li class="nav-item organizer">
+                    <a href="https://twitter.com/saraolive" target="_blank">
+                      <img src="/images/organizers/sara.jpg" class="organizer--image" alt="Sara Sheehan" title="Sara Sheehan" />
+                    </a>
+                  </li>
+                  <li class="nav-item organizer">
+                    <a href="https://twitter.com/redstonemercury" target="_blank">
+                      <img src="/images/organizers/jess.jpg" class="organizer--image" alt="Jess Major" title="Jess Major" />
+                    </a>
+                  </li>
+                  <li class="nav-item organizer">
+                    <a href="https://twitter.com/rayonrails" target="_blank">
+                      <img src="/images/organizers/ray.jpg" class="organizer--image" alt="Ray Rogers" title="Ray Rogers" />
+                    </a>
+                  </li>
+                  <li class="nav-item organizer">
+                    <a href="https://twitter.com/lukeweatherlow" target="_blank">
+                      <img src="/images/organizers/luke.jpg" class="organizer--image" alt="Luke Weatherlow" title="Luke Weatherlow" />
+                    </a>
+                  </li>
+                  <li class="nav-item organizer">
+                    <a href="https://twitter.com/SeanFedorko" target="_blank">
+                      <img src="/images/organizers/sean.jpg" class="organizer--image" alt="Sean Fedorko" title="Sean Fedorko" />
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
     <script src="/javascripts/site.js"></script>
+
   </body>
 </html>

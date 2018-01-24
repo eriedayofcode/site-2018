@@ -1,6 +1,7 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+activate :livereload
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
@@ -50,10 +51,19 @@ helpers do
     "https://eriedayofcode.ticketleap.com/2018/dates/May-16-2018_at_0900AM"
   end
 
+  def venue_map_url
+    "https://goo.gl/maps/Td9m3MVZgD62"
+  end
+
+  def twitter_profile(name)
+    "https://twitter.com/#{name}"
+  end
+
   def social_links
     OpenStruct.new(
       twitter: data.info.twitter_url,
-      facebook: data.info.facebook_url
+      facebook: data.info.facebook_url,
+      youtube: data.info.youtube_url
     )
   end
 
