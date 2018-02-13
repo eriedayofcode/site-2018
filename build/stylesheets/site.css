@@ -59,6 +59,9 @@ body {
 @media (max-width: 768px) {
   .speaker {
     margin-bottom: 1.5rem; } }
+@media (min-width: 768px) {
+  .speakers .row {
+    margin-bottom: 1.5rem; } }
 .caption {
   font-size: .85rem;
   text-align: center;

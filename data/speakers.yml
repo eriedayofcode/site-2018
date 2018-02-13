@@ -14,3 +14,19 @@
     Volunteer Crisis Counselor turned Software Engineer for [Crisis Text Line](http://crisistextline.org/) hailing from Lincoln, Nebraska. Occasionally does taxes for fun. Lover of source control, repeatable deployment processes, and kayak polo.
   abstract: |-
     Octopus Deploy is a tool for .NET deployment automation. You can use it to deploy IIS websites, Windows services, and even certificates and scripts that you need to run on remote machines. Octopus Deploy has the potential to make deploying from the build server to remote machines painless and repeatable- but there are some things you may want to know up front to make that happen. This session will explore why you might want to try Octopus Deploy, what sort of issues you may run into, and how Ocuvera uses Octopus to manage our on-premise product installations & updates.
+- name: Chris Nies
+  image: /images/speakers/christopher-nies.jpg
+  twitter: ""
+  talk_title: "Head in the Cloud: How to Write an Alexa Skill"
+  about: |-
+    Software Engineer by day. Industrial sewing machine enthusiast the rest of the time. Owner of a knitting bag company. Currently learning to design 8-bit CPUs from logic gates.
+  abstract: |-
+    Voice control can fundamentally improve the way we interact with technology, and it's becoming increasingly ubiquitous. Cloud-powered services like Alexa can connect us to family, help around the house, and create new experiences to make our lives easier. In this talk, I will give a basic overview of how to design and implement an Alexa skill using AWS technologies to add custom functionality to Alexa-enabled devices.
+- name: Ado Kukic
+  image: /images/speakers/ado-kukic.jpg
+  twitter: "KukicAdo"
+  talk_title: "A Token Walks Into a SPA..."
+  about: |-
+    Full-stack developer and evangelist at [Auth0](https://auth0.com). Mixing his passion of programming and education to create educational content focusing on security, authentication, and much more.
+  abstract: |-
+    Seems like all you hear about these days are Single Page Applications. Angular, React, and Vue are transforming the way we think about the frontend. But what about securing these applications? This tends to take a back seat to speed, animations and other cool features of these frameworks. Between cookies, tokens, keeping users authenticated, and handling resource access, securing these apps can be tricky - you may even feel like you need a second page (gasp!) for your authentication setup! But we have the technology to create truly secure single-page applications. In this talk, we’ll walk through securing a Vue application, but our approach will apply to nearly any single-page application framework.
