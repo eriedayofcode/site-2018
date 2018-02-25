@@ -30,3 +30,35 @@
     Full-stack developer and evangelist at [Auth0](https://auth0.com). Mixing his passion of programming and education to create educational content focusing on security, authentication, and much more.
   abstract: |-
     Seems like all you hear about these days are Single Page Applications. Angular, React, and Vue are transforming the way we think about the frontend. But what about securing these applications? This tends to take a back seat to speed, animations and other cool features of these frameworks. Between cookies, tokens, keeping users authenticated, and handling resource access, securing these apps can be tricky - you may even feel like you need a second page (gasp!) for your authentication setup! But we have the technology to create truly secure single-page applications. In this talk, we’ll walk through securing a Vue application, but our approach will apply to nearly any single-page application framework.
+- name: Nivia Henry
+  image: /images/speakers/nivia-henry.jpg
+  twitter: "Lanooba"
+  talk_title: "TBD"
+  about: |-
+    Product Manager at Spotify.
+  abstract: |-
+    TBD
+- name: James Wrubel
+  image: /images/speakers/jim-wrubel.jpg
+  twitter: "jameswrubel"
+  talk_title: "Tell Me About Some Projects You Work On In Your Spare Time"
+  about: |-
+    A software developer, CTO, and entrepreneur over his 23-year career. Currently serves as consulting CTO for a number of education organizations. Bootstrapping a startup focused on craft beer discovery.
+  abstract: |-
+    If you’ve been a part of an interview for a technical position in the last ten years, you are probably aware that the process is horribly broken. Come watch me yell about it for the first third of this talk and present a possible solution in the second two thirds.
+- name: Andrew Chernauskas
+  image: /images/speakers/andrew-chernauskas.jpg
+  twitter: "abstractpenguin"
+  talk_title: "Lost at Sea: Navigating the Waters of Remote/Distributed Teams"
+  about: |-
+    Senior Front-end Drupal Developer making websites and workspaces more enjoyable to get meaningful work done. Cofounder of the Erie Design Group and LEGO enthusiast.
+  abstract: |-
+    Even if you're not a remote worker, chances are someone on your team is. Often neglected, working remotely takes extra effort and intentional practice. This talk illuminates potential challenges and tactics for working with others to improve your work-life (especially when it's at your home).
+- name: Tim Bickerton
+  image: /images/speakers/tim-bickerton.jpg
+  twitter: ""
+  talk_title: "Scrumbanzen (or how we evolved our agile practices to deliver early and often)"
+  about: |-
+    Software product development consultant in education. Former VP of Product Development and Operations at Think Through Math. Passionate about leading projects and people. Possibly more passionate about 90s pop classic sing-a-longs.
+  abstract: |-
+    In this session, we’ll cover the values of the Agile Manifesto and exactly how we drew inspiration from them at Think Through Math (TTM) as the foundation for our agile practices. We’ll then cover the basics of several frameworks (XP, Scrum, Kanban, Kaizen) that formed the foundation of our ‘flavor’ of agile product development. We’ll identify the components of each framework that we adopted at TTM to improve our product development, and why, while always testing and learning. We’ll also cover what agile practices we didn’t employ at TTM, and why. Most importantly, we’ll walk through TTM’s product development process, step-by-step, showing exactly how it worked and showing example artifacts that we used on regular basis (daily/weekly/monthly) to manage development. Rounding out the talk will be a Q & A session where conference attendees can inquire about the practices we used at TTM and seek advice about their own agile implementations. Conference attendees will leave the talk with actionable insights and knowledge of a successful custom framework that they can apply to their own organizations.
