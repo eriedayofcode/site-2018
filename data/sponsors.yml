@@ -2,4 +2,18 @@ partners:
   - name: Radius CoWork
     url: http://radiusco.work
     logo: 'radius-logo.png'
-  
+  - name: WolfyMaster Media
+    url: http://wolfymaster.com
+    logo: 'wolfymaster.png'
+silver:
+  - name: Wërkbot
+    url: http://werkbot.com
+    logo: 'werkbot.svg'
+platinum:
+  - name: Erie Insurance
+    url: http://erieinsurance.com
+    logo: 'erie-insurance.jpg'
+bronze:
+  - name: Ben Franklin Technology Partners
+    url: http://cnp.benfranklin.org
+    logo: 'bftp.jpg'

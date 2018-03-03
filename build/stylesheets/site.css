@@ -156,3 +156,10 @@ section {
   border-radius: 50%;
   max-height: 70px;
   max-width: 70px; }
+
+.sponsor-level {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 3rem; }
+  .sponsor-level .sponsor--title {
+    text-align: center;
+    font-size: 1.75rem; }

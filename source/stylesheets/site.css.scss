@@ -237,3 +237,13 @@ section {
     max-width: 70px;
   }
 }
+
+.sponsor-level {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 3rem;
+
+  .sponsor--title {
+    text-align: center;
+    font-size: 1.75rem;
+  }
+}

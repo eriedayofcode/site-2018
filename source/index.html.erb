@@ -113,10 +113,55 @@ title: Erie Day of Code 2018
       </h4>
 
 
-      <section id="sponsor-partners">
-        <h1 class="partners">Partners</h1>
+      <section id="sponsor-partners" class="sponsor-level">
+        <h1 class="sponsor--title">Partners</h1>
         <div class="row">
           <% data.sponsors.partners.each do |s| %>
+            <div class="col-lg-5 offset-lg-1">
+              <article class="sponsor">
+                <% link_to s.url, target: '_blank' do %>
+                  <%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+                <% end %>
+              </article>
+            </div>
+          <% end %>
+        </div>
+      </section>
+
+      <section id="sponsor-plantinum" class="sponsor-level">
+        <h1 class="sponsor--title">Platinum</h1>
+        <div class="row">
+          <% data.sponsors.platinum.each do |s| %>
+            <div class="col-lg-8 offset-lg-2">
+              <article class="sponsor">
+                <% link_to s.url, target: '_blank' do %>
+                  <%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+                <% end %>
+              </article>
+            </div>
+          <% end %>
+        </div>
+      </section>
+
+      <section id="sponsor-silver" class="sponsor-level">
+        <h1 class="sponsor--title">Silver</h1>
+        <div class="row">
+          <% data.sponsors.silver.each do |s| %>
+            <div class="col-lg-8 offset-lg-2">
+              <article class="sponsor">
+                <% link_to s.url, target: '_blank' do %>
+                  <%= image_tag "sponsors/#{s.logo}", alt: s.name, title: s.name, class: 'logo' %>
+                <% end %>
+              </article>
+            </div>
+          <% end %>
+        </div>
+      </section>
+
+      <section id="sponsor-bronze" class="sponsor-level">
+        <h1 class="sponsor--title">Bronze</h1>
+        <div class="row">
+          <% data.sponsors.bronze.each do |s| %>
             <div class="col-lg-4 offset-lg-4">
               <article class="sponsor">
                 <% link_to s.url, target: '_blank' do %>
@@ -132,7 +177,7 @@ title: Erie Day of Code 2018
 
   <section class="more-info">
     <div class="container">
-      <h3 class="more-info--title">More information and speakers to be announced soon!</h3>
+      <h3 class="more-info--title">More information to be announced soon!</h3>
     </div>
   </section>
 </div>
