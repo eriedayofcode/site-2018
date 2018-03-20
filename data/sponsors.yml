@@ -9,6 +9,13 @@ silver:
   - name: Wërkbot
     url: http://werkbot.com
     logo: 'werkbot.svg'
+  - name: The City of Erie
+    url: http://erie.pa.us
+    logo: 'erie.png'
+gold:
+  - name: Velocity Network
+    url: http://velocitynetwork.net
+    logo: 'vnet.png'
 platinum:
   - name: Erie Insurance
     url: http://erieinsurance.com
