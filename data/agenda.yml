@@ -4,45 +4,45 @@
 
 - time: 8:50am - 9:00am
   type: other
-  title: Opening Statements
+  title: Opening Statements from Mayor Schember
 
-- time: 9:00am - 9:25am
+- time: 9:00am - 9:30am
   type: talk
-  title: Rust Out Your C
+  title: A Token Walks Into a SPA...
   description: |-
     A look at where computing and analytics began and where it is headed. The basis of all DevOps and development starts with our measurements.  We need to understand what role analytics and metrics plays in modern computing.  To find out, we look at where analytics began in the advent of computer science and where we stand today, with an eye toward the future.
   speaker:
-    name: "Carol (Nichols || Goulding)"
-    image: speakers/carol-nichols.jpg
+    name: "Ado Kukic"
+    image: /images/speakers/ado-kukic.jpg
 
-- time: 9:40am - 10:10am
+- time: 9:45am - 10:15am
   type: talk
-  title: "Testing: A Love Story"
+  title: "From concept to cash: Building and optimizing your product value stream"
   description: |-
-    You've probably heard people talk about how important automated testing is to your software development process. It's a big topic, and it's easy to feel overwhelmed by a large code base that doesn't have a lot of test coverage. Fear not, our time together will cover different types of tests, how to start implenting tests into your codebase, and how to use those tests to improve the quality and predictability of your code. Whether you've been writing tests for years or are wondering how to get started, this talk has something for everyone!
+    Product development starts well before the first line of code is ever written. However, we often focus only on the software development components with little understanding of what should happen before and after. In this hands-on session, let's explore the entire value stream and find ways to shorten the feedback loop throughout.
   speaker:
-    name: Matt Frost
-    image: speakers/matt-frost.jpg
+    name: "Nivia Henry"
+    image: /images/speakers/nivia-henry.jpg
 
-- time: 10:25am - 10:55am
+- time: 10:30am - 11:00am
   type: talk
-  title: Why Should I Care About Docker Anyway?
+  title: "Confessions of a Reformed Architecture Astronaut: In Defense of MVC"
   description: |-
-    There is nothing new under the sun -- everything you can do with containers you can do without. And Docker has lots of talk around it, which might make you as suspicious as I am that it's snake oil. But it's actually immensely useful! I'll talk about some ways we're using it: self-contained testing environments, enabling a continuous deployment pipline, and to bundle up difficult-to-install dependencies.
+    Every programmer wants to write Good Code, but what does that actually mean? Almost anyone who has been in the industry for more than a few years will have seen horrible abuse of model-view-controller, so it is perhaps no wonder that we are quick to reach for design patterns as a panacea. We want to future-proof in case we need to switch ORMs or move away from our chosen framework altogether, and so we isolate and we interface; we reach for domain-driven design and hexagonal architecture and the Gang of Four. We are making many of our applications far more complex than they really need to be to solve problems that may never exist. In this talk, we'll explore the difference between proactive and reactive coding, re-evaluating along the way some practices that many programmers have declared 'cardinal sins.'
   speaker:
-    name: Chris Winters
-    image: speakers/chris-winters.jpg
+    name: Samantha Geitz
+    image: /images/speakers/samantha-geitz.jpg
 
 - time: 11:15am - 11:45pm
   type: talk
-  title: Writing Code That Speaks
+  title: Tell Me About Some Projects You Work On In Your Spare Time
   description: |-
-    Code is read many more times than it is written. In this talk Caleb walk through simple, practicle examples of how you can give your code a voice. We're going to explore the power of word choice and how you can develop naming habits that lead to beneficial refactorings.
+    A software developer, CTO, and entrepreneur over his 23-year career. Currently serves as consulting CTO for a number of education organizations. Bootstrapping a startup focused on craft beer discovery.
   speaker:
-    name: Caleb Porzio
-    image: speakers/caleb-porzio.jpg
+    name: James Wrubel
+    image: /images/speakers/jim-wrubel.jpg
 
-- time: 12:00pm - 1:30pm
+- time: 11:45pm - 1:15pm
   type: other
   title: Lunch
 
@@ -51,38 +51,47 @@
   title: Lightning Talks
   description: Do you have something you want to teach or an awesome project to show off?  Come early and be one of 5 people to sign up to give a lightning talk!
 
-- time: 2:15pm - 3:00pm
+- time: 2:15pm - 2:45pm
   type: talk
-  title: "Tales of a Product Owner; or, a Foreigner’s Perspective in a Native Land"
+  title: "Scrumbanzen (or how we evolved our agile practices to deliver early and often)"
   description: |-
-    In this talk, Jenny will take the audience through her adventures as a non-technical member of two teams that, while very different from each other, fundamentally shaped her views about what makes teams successful. Through this walk down memory lane, Jenny not only hopes to pin down a working definition of product ownership (is there actually a difference between a product owner and a project manager?), but also share some tips for both product owners and developers on what they can do to help build and sustain an awesome, thoughtful team.
+    In this session, we’ll cover the values of the Agile Manifesto and exactly how we drew inspiration from them at Think Through Math (TTM) as the foundation for our agile practices. We’ll then cover the basics of several frameworks (XP, Scrum, Kanban, Kaizen) that formed the foundation of our ‘flavor’ of agile product development. We’ll identify the components of each framework that we adopted at TTM to improve our product development, and why, while always testing and learning. We’ll also cover what agile practices we didn’t employ at TTM, and why. Most importantly, we’ll walk through TTM’s product development process, step-by-step, showing exactly how it worked and showing example artifacts that we used on regular basis (daily/weekly/monthly) to manage development. Rounding out the talk will be a Q & A session where conference attendees can inquire about the practices we used at TTM and seek advice about their own agile implementations. Conference attendees will leave the talk with actionable insights and knowledge of a successful custom framework that they can apply to their own organizations.
   speaker:
-    name: Jenny Liu
-    image: speakers/jenny-liu.jpg
+    name: Tim Bickerton
+    image: /images/speakers/tim-bickerton.jpg
 
-- time: 3:15pm - 3:45pm
+- time: 3:00pm - 3:30pm
   type: talk
-  title: Functional Programming in the Browser with Elm
+  title: "Lost at Sea: Navigating the Waters of Remote/Distributed Teams"
   description: |-
-    See how easy it is to get started with functional programming with this introduction to Elm. We'll talk a little bit about the history and philosophy of this relatively new programming language, explore a few of the things you might learn as you use it, look at some of the strengths and weaknesses of this tool, and show you how you can get started on your own adventure with Elm!
+    Even if you're not a remote worker, chances are someone on your team is. Often neglected, working remotely takes extra effort and intentional practice. This talk illuminates potential challenges and tactics for working with others to improve your work-life (especially when it's at your home).
   speaker:
-    name: Manda Brown
-    image: speakers/manda-brown.jpg
+    name: Andrew Chernauskas
+    image: /images/speakers/andrew-chernauskas.jpg
 
-- time: 4:00pm - 4:45pm
+- time: 3:45pm - 4:15pm
   type: talk
-  title: "From Turing to Big Data: A Look at Computing and Analytics"
+  title: "Octopus Deploy: Automating .NET Deployments"
   description: |-
-    A look at where computing and analytics began and where it is headed. The basis of all DevOps and development starts with our measurements.  We need to understand what role analytics and metrics plays in modern computing.  To find out, we look at where analytics began in the advent of computer science and where we stand today, with an eye toward the future.
+    Octopus Deploy is a tool for .NET deployment automation. You can use it to deploy IIS websites, Windows services, and even certificates and scripts that you need to run on remote machines. Octopus Deploy has the potential to make deploying from the build server to remote machines painless and repeatable- but there are some things you may want to know up front to make that happen. This session will explore why you might want to try Octopus Deploy, what sort of issues you may run into, and how Ocuvera uses Octopus to manage our on-premise product installations & updates.
   speaker:
-    name: PJ Hagerty
-    image: speakers/pj-hagerty.jpg
+    name: Cassey Lottman
+    image: /images/speakers/cassey-lottman.jpg
 
-- time: 4:45pm - 5:00pm
+- time: 4:30pm - 5:00pm
+  type: talk
+  title: "Head in the Cloud: How to Write an Alexa Skill"
+  description: |-
+    Voice control can fundamentally improve the way we interact with technology, and it's becoming increasingly ubiquitous. Cloud-powered services like Alexa can connect us to family, help around the house, and create new experiences to make our lives easier. In this talk, I will give a basic overview of how to design and implement an Alexa skill using AWS technologies to add custom functionality to Alexa-enabled devices.
+  speaker:
+    name: Chris Nies
+    image: /images/speakers/christopher-nies.jpg
+
+- time: 5:00pm
   type: other
   title: Closing Remarks
 
-- time: 5:15pm - 9:00pm
+- time: 5:30pm - 9:00pm
   type: other
   title: After Party at the Brewerie!
   description: |-

@@ -24,3 +24,7 @@ bronze:
   - name: Ben Franklin Technology Partners
     url: http://cnp.benfranklin.org
     logo: 'bftp.jpg'
+  - name: Erie Innovation District
+    url: http://erieinnovationdistrict.com
+    logo: 'eid.png'
+support: ["Jean Lange", "John Lange", "Jiiiiiiiim South"]

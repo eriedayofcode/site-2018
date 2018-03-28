@@ -33,11 +33,11 @@
 - name: Nivia Henry
   image: /images/speakers/nivia-henry.jpg
   twitter: "Lanooba"
-  talk_title: "TBD"
+  talk_title: "From concept to cash: Building and optimizing your product value stream"
   about: |-
-    Former Web Developer turned Project Manager @ [Spotify](http://spotify.com). Knowledgable in product development, QA, and people management. Enjoys sharing what she's learned along the way over a glass of red wine.
+    Former agile coach turned Engineering Manager @ [Spotify](http://spotify.com). Knowledgable in product development, QA, and people management. Enjoys sharing what she's learned along the way over a glass of red wine.
   abstract: |-
-    TBD
+    Product development starts well before the first line of code is ever written. However, we often focus only on the software development components with little understanding of what should happen before and after. In this hands-on session, let's explore the entire value stream and find ways to shorten the feedback loop throughout.
 - name: James Wrubel
   image: /images/speakers/jim-wrubel.jpg
   twitter: "jameswrubel"

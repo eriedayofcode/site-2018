@@ -247,3 +247,28 @@ section {
     font-size: 1.75rem;
   }
 }
+
+.agenda {
+  &-row {
+    border-bottom: 1px dotted #ccc;
+    padding: 1rem;
+  }
+
+	.speaker-photo {
+		max-width: 100px;
+		max-height: 100px;
+		margin: 10px auto;
+		display: block;
+		border-radius: 50%;
+		text-align: center;
+	}
+
+	.speaker {
+		padding: 1rem;
+		text-align: center;
+	}
+
+	.time-col {
+		text-align: center;
+	}
+}
