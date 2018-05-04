@@ -12,6 +12,9 @@ silver:
   - name: The City of Erie
     url: http://erie.pa.us
     logo: 'erie.png'
+  - name: Vehikl
+    url: http://vehikl.com
+    logo: 'vehikl.png'
 gold:
   - name: Velocity Network
     url: http://velocitynetwork.net
